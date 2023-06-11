@@ -1,0 +1,82 @@
+/* Navbar CSS */
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .logo {
+    inline-size: 23%;
+    padding: 1%;
+  }
+  
+  nav {
+    inline-size: 73%;
+    padding: 1%;
+  }
+  
+  ul {
+    inline-size: 50%;
+    margin-inline-start: auto;
+  }
+  
+  /* Hero Image CSS */
+  .heroImg {
+    block-size: 600px;
+    padding: 25px;
+  }
+  
+  .content {
+    inline-size: 500px;
+    margin: 0 auto;
+  }
+  /* My UX Skills section */
+.flexContainer {
+    display: flex;
+}
+
+.flexContainer > div {
+    inline-size: 33%;
+    margin: 10px;
+    padding: 20px;
+}
+/* My Work section */
+.workGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.workGrid > div {
+    text-align: center;
+    padding: 20px;
+}
+@media (max-inline-size: 600px) {
+    /* Mobile styles */
+    .flexContainer {
+        flex-direction: column;
+    }
+
+    .flexContainer > div {
+        inline-size: 100%;
+    }
+
+    .workGrid {
+        grid-template-columns: 1fr;
+    }
+}
+/* Footer CSS */
+footer {
+    background-color: #373738;
+    padding: 20px;
+  }
+  
+  footer ul {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+  }
+  
+  footer li {
+    padding: 10px;
+  }
+  
